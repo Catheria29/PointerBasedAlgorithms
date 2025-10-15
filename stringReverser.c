@@ -5,7 +5,7 @@ char* stringReverser(char str[],int size){
     char *p = malloc(size + 1);
     int cnt = 0;
     for(int i = size -1; i >= 0; i--){
-        *(p+i) = str[i];
+         *(p+cnt) = str[i];//p[i] = str[i]
         
         cnt++;
         }
